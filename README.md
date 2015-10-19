@@ -1,5 +1,5 @@
 # Deutsch_Falsch
-Twitterbot that generates orthographically plausible German words with semantically plausible English definitions. See [https://twitter.com/Deutsch_Falsch] (@Deutsch_Falsch) for sample output.
+Twitterbot that generates orthographically plausible German words with semantically plausible English definitions. See [https://twitter.com/Deutsch_Falsch] (https://twitter.com/Deutsch_Falsch) for sample output.
 
 ## How it works
 The German words are generated using a trigram model that was trained on actual German nouns. The files `1.txt`, `2.txt` and `3.txt` contain all unigrams, bigrams and trigrams from my noun list with their frequency. The new words are randomly generated so that they have the same character and n-gram distribution as the actual German words.
